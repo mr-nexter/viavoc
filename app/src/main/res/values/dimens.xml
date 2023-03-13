@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="words_container_height">152dp</dimen>
+    <dimen name="words_height">120dp</dimen>
+    <dimen name="words_container_height_hidden">-160dp</dimen>
+    <dimen name="word_radius">20dp</dimen>
+    <dimen name="word_margin">3dp</dimen>
+    <dimen name="word_text_size">16sp</dimen>
+    <dimen name="word_margin_sides">10dp</dimen>
+    <dimen name="word_close_padding">15dp</dimen>
+    <dimen name="word_close_size">25dp</dimen>
+    <dimen name="words_container_margin">1dp</dimen>
+
+    <dimen name="code_text_size">16sp</dimen>
+
+    <dimen name="tutrl_inner_margin">10dp</dimen>
+    <dimen name="file_name_window">240dp</dimen>
+
+    <dimen name="new_file_padding">8dp</dimen>
+    <dimen name="new_file_padding_left">15dp</dimen>
+    <dimen name="new_file_text_size">22sp</dimen>
+    <dimen name="fnw_edit_text">200dp</dimen>
+    <dimen name="fnw_edit_text_margin">10dp</dimen>
+    <dimen name="fnw_edit_text_margin_left">30dp</dimen>
+    <dimen name="fnw_edit_text_size">14sp</dimen>
+    <dimen name="finish_button_width">80dp</dimen>
+    <dimen name="finish_button_height">32dp</dimen>
+    <dimen name="finish_button_margin_bottom">20dp</dimen>
+
+    <dimen name="report_send_button_size">60dp</dimen>
+    <dimen name="report_send_button_radius">60dp</dimen>
+</resources>

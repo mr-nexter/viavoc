@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/file_name_window"
+    android:layout_height="wrap_content"
+    android:background="@color/androidStudioBG"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:text="@string/new_file"
+        android:textStyle="bold"
+        android:textColor="@color/whiter"
+        android:textSize="@dimen/new_file_text_size"
+        android:paddingTop="@dimen/new_file_padding"
+        android:paddingBottom="@dimen/new_file_padding"
+        android:paddingStart="@dimen/new_file_padding_left"/>
+
+    <EditText
+        android:id="@+id/new_file_package"
+        android:layout_width="@dimen/fnw_edit_text"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fnw_edit_text_margin"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="@dimen/fnw_edit_text_margin_left"
+        android:layout_marginEnd="@dimen/fnw_edit_text_margin_left"
+        android:textSize="@dimen/fnw_edit_text_size"
+        android:textColor="@color/wordClose"
+        android:hint="@string/enter_package_name"
+        android:backgroundTint="@color/wordClose"
+        android:textColorHint="@color/wordClose"
+        android:layout_gravity="center"/>
+    
+    <EditText
+        android:id="@+id/new_file_edit"
+        android:layout_width="@dimen/fnw_edit_text"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fnw_edit_text_margin"
+        android:layout_marginBottom="@dimen/fnw_edit_text_margin"
+        android:layout_marginStart="@dimen/fnw_edit_text_margin_left"
+        android:layout_marginEnd="@dimen/fnw_edit_text_margin_left"
+        android:textSize="@dimen/fnw_edit_text_size"
+        android:textColor="@color/wordClose"
+        android:hint="@string/enter_file_name"
+        android:backgroundTint="@color/wordClose"
+        android:textColorHint="@color/wordClose"
+        android:layout_gravity="center"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/wordClose"
+        android:text="@string/or_say"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/finish_button_margin_bottom"/>
+
+    <ImageView
+        android:id="@+id/new_file_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_mic_nf"
+        android:layout_marginBottom="@dimen/finish_button_margin_bottom"/>
+    
+    <Button
+        android:id="@+id/new_file_finish"
+        android:layout_width="@dimen/finish_button_width"
+        android:layout_height="@dimen/finish_button_height"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/finish_button_margin_bottom"
+        android:background="@color/finish_btn"
+        android:text="@string/finish_btn"
+        android:textColor="@color/whiter"/>
+
+</LinearLayout>

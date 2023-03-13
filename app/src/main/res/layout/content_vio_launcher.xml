@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".VioLauncher"
+    android:background="@color/androidStudioBG"
+    tools:showIn="@layout/app_bar_vio_launcher">
+
+    <br.tiagohm.codeview.CodeView
+        android:id="@+id/code_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/codeBackground"
+        app:cv_font_size="14"
+        app:cv_highlight_line_number="2"
+        app:cv_show_line_number="true"
+        app:cv_start_line_number="0"
+        app:cv_wrap_line="false"
+        app:cv_zoom_enable="true"/>
+
+    <FrameLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/words_container_height"
+        android:layout_gravity="bottom"
+        android:background="@color/wordsContainerBG"
+        android:layout_marginBottom="@dimen/words_container_height_hidden">
+        <!--@dimen/words_container_height_hidden-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/words_container"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/words_height"/>
+
+            <Button
+                android:id="@+id/convert_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/finish_button_height"
+                android:background="@color/sendButton"
+                android:textColor="@color/white"
+                android:text="@string/convert_in"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_mic"
+        app:backgroundTint="@color/colorAccent"
+        app:rippleColor="@color/sendButton"/>
+
+</FrameLayout>

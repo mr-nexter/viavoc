@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Viavoc</string>
+    <string name="bug_found">"В мене виникли проблеми під час використання наступної послідовності команд "</string>
+    <string name="choose_app">Оберіть програму</string>
+    <string name="enter_file_name">Введіть назву файлу</string>
+    <string name="finish_btn">ОК</string>
+    <string name="hello">Вітаю!</string>
+    <string name="inform_me">Хочу бути проінформованим(ною), коли баг буде усунено.</string>
+    <string name="mene_home">Головна</string>
+    <string name="menu_communicate">Написати</string>
+    <string name="menu_feedback">Залишити відгук</string>
+    <string name="menu_file_save">Зберегти файл</string>
+    <string name="menu_guides">Посібники</string>
+    <string name="menu_last_files">Відкрити останній</string>
+    <string name="menu_new_file">Новий файл</string>
+    <string name="menu_report">Повідомити про помилку</string>
+    <string name="menu_settings">Налаштування</string>
+    <string name="menu_share">Поділитися</string>
+    <string name="new_file">Новий файл</string>
+    <string name="or_say">чи скажіть його:</string>
+    <string name="problem_description">Опишіть проблему, яку Ви зустріли під час використання додатку</string>
+    <string name="required_field">Обов\'язкове поле</string>
+    <string name="say_file_name">Скажіть назву нового файлу</string>
+    <string name="send_button">Відправити</string>
+    <string name="speech_not_supported">Вибачте! Ваш пристрій не підтримує голосове введення</string>
+    <string name="speech_prompt">Скажіть те, що ви хочете змінити</string>
+    <string name="enter_package_name">Введіть назву пакету</string>
+    <string name="navigation_drawer_close">Закрити</string>
+    <string name="navigation_drawer_open">Відкрити</string>
+    <string name="convert_in">"Конвертувати "</string>
+    <string name="cannot_convert">Надто мала кількість слів, щоб конвертувати</string>
+    <string name="error_in_command">Помилка в послідовності команд. Неможливо конвертувати</string>
+    <string name="main_exist">Метод main вже додано!</string>
+    <string name="file">"Файл "</string>
+    <string name="was_saved">було успішно збережено в теці Viavoc</string>
+    <string name="language">Мова:</string>
+    <string name="theme">Тема:</string>
+    <string name="i_use_viavoc">"Я використовую Viavoc! Спробуйте: "</string>
+</resources>

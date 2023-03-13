@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4C4C4C</color>
+    <color name="colorPrimaryDark">#2D2D2D</color>
+    <color name="colorAccent">#38C6FF</color>
+    <color name="colorDeaccent">#FF3333</color>
+    <color name="wordColor">#181820</color>
+    <color name="wordClose">#8E8E8E</color>
+    <color name="wordsContainerBG">#D8D8D8</color>
+    <color name="reportBG">#51EAEAEA</color>
+    <color name="codeBackground">#E9EDF4</color>
+    <color name="white">#fff</color>
+    <color name="sendButton">#4EC54A</color>
+    <color name="whiter">#CCFAFAFA</color>
+    <color name="whitish">#FAFAFA</color>
+    <color name="finish_btn">#AA596268</color>
+
+    <color name="androidStudioBG">#272B2E</color>
+    <color name="iconsTint">#F2F2F2</color>
+</resources>
