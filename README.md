@@ -9,11 +9,12 @@ Removed from the Google Play after ChatGPT release, due to needlessness. Project
 Feel free to use it for any purpose as you wish.
 
 Here are some screenshots of the app:
-![Home screen](./screenshots/08.jpg)
-![Creating a Person class](./screenshots/01.png | width=300)
-![Adding fields to the Person class](./screenshots/02.png | width=300) | ![Generated constructor, getters and setters](./screenshots/03.png | width=300)
-![Built-in tutorials](./screenshots/04.png | width=300) | ![New file creation](./screenshots/03.png | width=300)
-![Telling commands to the app](./screenshots/09.jpg | width=300) | ![Nav bar options](./screenshots/07.png | width=300)
+
+![Home screen](./screenshots/08.jpg) | ![Creating a Person class](./screenshots/01.png)
+![Adding fields to the Person class](./screenshots/02.png) | ![Generated constructor, getters and setters](./screenshots/03.png)
+![Built-in tutorials](./screenshots/04.png) | ![New file creation](./screenshots/03.png)
+![Telling commands to the app](./screenshots/09.jpg) | ![Nav bar options](./screenshots/07.png)
+
 
 ______________________________________________________________________________
 
