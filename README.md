@@ -2,17 +2,23 @@
 
 Android code editor that allowed to write Java code using your speech only.
 
-It had a built in potential to run Java code within Android since code editor represents almost complete Java wrapper.
+It had a built-in potential to run Java code within Android since code editor represents almost complete Java wrapper.
 
-Removed from the Google Play after ChatGPT release, due to uselessness. Project 2018-2019.
+Removed from the Google Play after ChatGPT release, due to needlessness. Project 2018-2019.
 
 Feel free to use it for any purpose as you wish.
+
+Here are some screenshots of the app:
+![Home screen](./screenshots/08.jpg | width=300) | ![Creating a Person class](./screenshots/01.png | width=300)
+![Adding fields to the Person class](./screenshots/02.png | width=300) | ![Generated constructor, getters and setters](./screenshots/03.png | width=300)
+![Built-in tutorials](./screenshots/04.png | width=300) | ![New file creation](./screenshots/03.png | width=300)
+![Telling commands to the app](./screenshots/09.jpg | width=300) | ![Nav bar options](./screenshots/07.png | width=300)
 
 ______________________________________________________________________________
 
 MIT License
 
-Copyright (c) 2019 Andrii Nexter
+Copyright (c) 2019 Andrii Dubovyk
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
