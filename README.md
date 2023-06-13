@@ -11,8 +11,14 @@ Feel free to use it for any purpose as you wish.
 Here are some screenshots of the app:
 
 ![Home screen](./screenshots/08.jpg) | ![Creating a Person class](./screenshots/01.png)
+
+
 ![Adding fields to the Person class](./screenshots/02.png) | ![Generated constructor, getters and setters](./screenshots/03.png)
+
+
 ![Built-in tutorials](./screenshots/04.png) | ![New file creation](./screenshots/03.png)
+
+
 ![Telling commands to the app](./screenshots/09.jpg) | ![Nav bar options](./screenshots/07.png)
 
 
